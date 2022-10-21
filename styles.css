@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    color: white;  
+    font-family: 'Courier New', monospace;
+  }
+  header{
+      text-align: center;
+      font-size:x-large;
+      margin: 10rem;
+      background-color: black;
+  
+      
+      border: 5px;
+      border-style:solid;
+      border-color: white;
+      word-wrap: break-word;
+  
+  }
+#firstSS{
+    width: 50rem;
+    height: 30rem;
+    padding: 1rem;
+}
+#secondSS{
+    width: 40rem;
+    height: 30rem;
+    padding: 1rem;
+}
+#thirdSS{
+    width: 40rem;
+    height: 68rem;
+    padding: 1rem;
+}
+#fourthSS{
+    width: 40rem;
+    height: 30rem;
+    padding: 1rem;
+}
+#fifthSS{
+    width: 42rem;
+    height: 30rem;
+    padding: 1rem;
+}
+#sixthSS{
+    width: 40rem;
+    height: 35rem;
+    padding: 1rem;
+}
+#seventhSS{
+    width: 40rem;
+    height: 32rem;
+    padding: 1rem;
+}
+#eigthSS{
+    width: 45rem;
+    height: 25rem;
+    padding: 1rem;
+}
+#ninthSS{
+    width: 37rem;
+    height: 43rem;
+    padding: 1rem;
+}
+#tenthSS{
+    width: 25rem;
+    height: 50rem;
+    padding: 1rem;
+}
+.flex-container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+
+  h2{
+      text-align: center;
+  }
+  h4{
+    text-align: center;
+    font-size: larger;
+  }
+  
+.section{
+      margin: 3rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  li{
+      padding:.7rem;
+  }
+  
+  a{
+      text-align: center;
+      font-size: large;
+      color:white;
+      
+  }
+
+  img{
+    width:30rem;
+    height: 30rem;
+  }
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
